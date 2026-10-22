@@ -44,3 +44,10 @@ A drafted class diagram of the current release is as follows:
 <img width="600" src="https://github.com/CSC3100/Pong-Game/assets/3814755/26cf5ecf-8172-4a36-8942-88b05d31b6e7">
   -->
 </p>
+
+
+## Delta Version (CSC308)
+
+Delta preserves the compact `CSC308/paintApp` implementation as a separate teaching example. It focuses on mouse listeners, drawing with Swing, an abstract `Shape` class with concrete `Circle`, `Rectangle`, and `Arc` subclasses, and stack-based Undo/Erase operations. Unlike the existing Gamma implementation, Delta is an alternative design for comparing object-oriented approaches, not a strictly later feature release.
+
+Source: `src/main/java/javiergs/paint/delta/`. Run `javiergs.paint.delta.Main` in an IDE (or compile and run this package with a Java compiler). The original implementation is retained apart from package declarations and class-level JavaDoc.
